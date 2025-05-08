@@ -116,3 +116,21 @@ int main()
     int nim;
     char ch;
 
+    do
+    {
+        cout << "Menu" << endl;
+        cout << "1. Menambah Data kedalam List" << endl;
+        cout << "2. Menghapus data dari dalam list" << endl;
+        cout << "3. Menampilkan semua data didalam list" << endl;
+        cout << "4. Mencari data dalam list" << endl;
+        cout << "5. Keluar" << endl;
+        cout << endl
+             << "Masukkan pilihan (1-5) : ";
+        cin >> ch;
+        switch (ch)
+        {
+        case '1':
+        {
+            mhs.addNode();
+            break;
+        }
